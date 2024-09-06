@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Menu, X, Scissors } from 'lucide-react'
 import { useState, useEffect, useRef } from 'react'
-import kingsmenLogo from "../../../../public/images/kingsmenLogoMain.jpg"
+import kingsmenLogo from "../../../../public/images/kingsmenLogoMain.png"
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -42,22 +42,23 @@ export function Navbar() {
         ref={navbarRef}
         className="bg-white shadow-md fixed top-0 left-0 right-0 z-50 transition-all duration-300"
       >
-        <div className="container h-44 mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-40">
             <div className="flex-shrink-0">
-              <div className="relative w-56 h-44">
+              <div className="relative w-56 h-52">
                 <Image
                   src={kingsmenLogo}
                   alt="Kingsmen Barber Studio Logo"
                   fill
                   style={{ objectFit: 'contain', objectPosition: 'left center' }}
                   priority
+                  
                 />
               </div>
             </div>
-            <div className="flex items-center">
-              <nav className="hidden md:flex space-x-8">
-                <Link href="/" className="text-gray-800 hover:text-gray-600 transition-colors">
+            <div className="flex items-center text-lg">
+              <nav className="hidden md:flex space-x-8 font-two">
+                <Link href="/" className="text-gray-800 hover:text-gray-600 transition-colors ">
                   Home
                 </Link>
                 <Link href="/services" className="text-gray-800 hover:text-gray-600 transition-colors">
@@ -82,7 +83,7 @@ export function Navbar() {
               <div className="md:hidden ml-4">
                 <button
                   onClick={() => setIsMenuOpen(!isMenuOpen)}
-                  className="text-gray-800 hover:text-gray-600 focus:outline-none p-2"
+                  className="text-gray-800 hover:text-gray-600 focus:outline-none p-2 font-two"
                 >
                   {isMenuOpen ? (
                     <X className="h-6 w-6" />

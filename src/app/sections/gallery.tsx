@@ -43,13 +43,13 @@ export default function Gallery() {
       
         <ImageGallery />
         
-        <h2 className="text-3xl font-bold text-center mt-16 mb-8">What Our Clients Say</h2>
+        <h2 className="text-3xl font-bold text-center mt-16 mb-8 font-one">What Our Clients Say</h2>
         <div className="max-w-4xl mx-auto">
           <Carousel opts={{loop: true}}>
             <CarouselContent>
               {testimonialList.map((testimonial, index) => (
                 <CarouselItem key={index}>
-                  <div className="p-4">
+                  <div className="p-4 font-twoa">
                     <TestimonialCard
                       fullName={testimonial.fullName}
                       rating={testimonial.rating}

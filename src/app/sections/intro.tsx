@@ -36,13 +36,13 @@ export default function HomeCTA() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight font-one">
               Experience the Royal Treatment at Kingsmen Barber Studio
             </h1>
-            <p className="text-xl text-gray-300">
+            <p className="text-xl text-gray-300 font-two">
               Precision cuts, classic shaves, and modern styles. Book your appointment today and elevate your grooming game.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 font-two">
               <Link
                 href="/book"
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-colors"
@@ -57,7 +57,7 @@ export default function HomeCTA() {
                 Our Services
               </Link>
             </div>
-            <div className="flex gap-8 text-sm">
+            <div className="flex gap-8 text-md font-two">
               <div className="flex items-center">
                 <Clock className="mr-2 h-5 w-5 text-gray-400" />
                 <span>Open Tuesday-Saturday</span>
@@ -92,10 +92,10 @@ export default function HomeCTA() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
             <div className="absolute bottom-4 left-4 right-4 text-white">
-              <blockquote className="text-lg font-medium italic">
+              <blockquote className="text-lg font-medium italic font-two">
                 "The best barbershop experience in town. Highly recommended!"
               </blockquote>
-              <p className="mt-2 text-sm">- Elliott P., Loyal Customer</p>
+              <p className="mt-2 text-sm font-two">- Elliott P., Loyal Customer</p>
             </div>
           </div>
         </div>

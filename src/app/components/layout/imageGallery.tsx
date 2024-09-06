@@ -34,8 +34,8 @@ export default function EnhancedImageGallery(): JSX.Element {
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <h2 className="text-4xl font-bold text-center mb-4">Our Gallery</h2>
-      <p className="text-xl text-center text-gray-600 mb-12">Explore our latest styles and cuts</p>
+      <h2 className="text-4xl font-bold text-center mb-4 font-one">Our Gallery</h2>
+      <p className="text-xl text-center text-gray-600 mb-12 font-two">Explore our latest styles and cuts</p>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {images.map((image, index) => (

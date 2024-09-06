@@ -4,9 +4,9 @@ import { Scissors, Clock, Star, Users, Award } from 'lucide-react';
 
 export default function About() {
   return (
-    <div className="bg-gray-100 font-lora" id="about">
+    <div className="bg-gray-100 font-two" id="about">
       <div className="max-w-6xl mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold text-center mb-2">
+        <h1 className="text-4xl font-bold text-center mb-2 font-one">
           About Kingsmen Barber
         </h1>
         <p className="text-xl text-center mb-12">
@@ -15,7 +15,7 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
-            <h2 className="text-3xl font-semibold">Meet Kevin Lopez</h2>
+            <h2 className="text-3xl font-semibold font-one">Meet Kevin Lopez</h2>
             <div className="relative w-full aspect-square rounded-lg overflow-hidden shadow-lg">
               <Image
                 src={Elliott}
@@ -45,7 +45,7 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h2 className="text-3xl font-semibold mb-4">Our History</h2>
+            <h2 className="text-3xl font-semibold mb-4 font-one">Our History</h2>
             <p className="text-lg">
               Established in 2023, Kingsmen Barber began as a modest shop nestled
               in the heart of downtown. Over the years, it has evolved into a
@@ -60,7 +60,7 @@ export default function About() {
             </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h2 className="text-3xl font-semibold mb-4">Our Mission</h2>
+            <h2 className="text-3xl font-semibold mb-4 font-one">Our Mission</h2>
             <p className="text-lg">
               To provide exceptional barber services in a friendly atmosphere
               while pushing the boundaries of styling and grooming, Kingsmen
@@ -82,29 +82,28 @@ export default function About() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <Scissors className="mx-auto mb-4 h-12 w-12 text-gray-600" />
-            <h3 className="text-xl font-semibold mb-2">Expert Barber</h3>
+            <h3 className="text-xl font-semibold mb-2 font-one">Expert Barber</h3>
             <p>Skilled professional with years of experience</p>
           </div>
          
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <Star className="mx-auto mb-4 h-12 w-12 text-gray-600" />
-            <h3 className="text-xl font-semibold mb-2">Top-Rated Service</h3>
+            <h3 className="text-xl font-semibold mb-2 font-one">Top-Rated Service</h3>
             <p>Consistently high ratings from satisfied clients</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <Users className="mx-auto mb-4 h-12 w-12 text-gray-600" />
-            <h3 className="text-xl font-semibold mb-2">Community Focus</h3>
+            <h3 className="text-xl font-semibold mb-2 font-one">Community Focus</h3>
             <p>Building relationships beyond the barbershop</p>
           </div>
         </div>
 
         <div className="text-center">
-          <h2 className="text-3xl font-semibold mb-8">Awards & Recognition</h2>
+          <h2 className="text-3xl font-semibold mb-8 font-one">Awards & Recognition</h2>
           <div className="flex justify-center items-center space-x-8">
-            
             <div className="text-center">
               <Award className="mx-auto mb-4 h-16 w-16 text-yellow-500" />
-              <p className="font-semibold">Best in the PNW</p>
+              <p className="font-semibold font-one">Best in the PNW</p>
               <p className="text-sm text-gray-600">Seattle Times</p>
             </div>
           </div>

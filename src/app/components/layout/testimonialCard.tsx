@@ -32,7 +32,7 @@ const TestimonialCard: React.FC<TestimonialType> = ({
               ))}
             </div>
           </div>
-          <blockquote className="relative text-lg font-medium">
+          <blockquote className="relative text-lg font-light">
             <span className="text-4xl text-gray-300 absolute -left-2 -top-2 leading-none">
               "
             </span>

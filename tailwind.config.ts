@@ -14,7 +14,8 @@ const config: Config = {
   			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
   		},
   		fontFamily: {
-  			lora: ["Lora"]
+  			'one': ['Oswald'],
+			'two': ['Poppins']
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
